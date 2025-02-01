@@ -1,12 +1,12 @@
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/chats.dart';
 
 void main() {
-  runApp(const WhatsApp_Clone());
+  runApp(const job_portal());
 }
 
-class WhatsApp_Clone extends StatelessWidget {
-  const WhatsApp_Clone({super.key});
+class job_portal extends StatelessWidget {
+  const job_portal({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,42 +23,60 @@ class Home_Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-            title: const Text("WhatsApp"),
-            backgroundColor: Colors.white,
-            // Color(Colors.green),
-            actions: [
-              IconButton(
-                icon: const Icon(Icons.photo_camera),
-                onPressed: () {},
-              ),
-              IconButton(
-                icon: const Icon(Icons.search),
-                onPressed: () {},
-              ),
-              IconButton(
-                icon: const Icon(Icons.more_vert),
-                onPressed: () {},
-              )
-            ]),
-        body: Container(
-          child: Center(
-            child: Row(
-              children: [Text("Welcome to our job finding app")],
-            ),
-          ),
+      appBar: AppBar(
+        title: const Text(
+          "Job Finder",
+          selectionColor: Colors.black,
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          items: const [
-            BottomNavigationBarItem(
-                icon: Icon(Icons.chat_sharp), label: "Charts"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.signal_wifi_statusbar_4_bar), label: "Status"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.commute_rounded), label: "Communities"),
-            BottomNavigationBarItem(icon: Icon(Icons.call), label: "Calls"),
+        actions: [Icon(Icons.search), Icon(Icons.replay_rounded)],
+        elevation: 4.0,
+        bottom: PreferredSize(
+            preferredSize: Size.fromHeight(1.0),
+            child: Container(
+              height: 1.0,
+            )),
+      ),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            ListTile(
+              title: Text("data"),
+            ),
+            ListTile()
           ],
-        ));
+        ),
+      ),
+      body: Center(
+        child: Text("Welcome"),
+      ),
+      bottomNavigationBar: CurvedNavigationBar(
+        backgroundColor: Colors.white,
+        color: Colors.purple,
+        items: <Widget>[
+          Icon(
+            Icons.home_filled,
+            size: 30,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.store_mall_directory_sharp,
+            size: 30,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.bookmark_border_sharp,
+            size: 30,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.person_2_outlined,
+            size: 30,
+            color: Colors.white,
+          ),
+        ],
+        onTap: (index) {},
+        animationDuration: Duration(milliseconds: 300),
+      ),
+    );
   }
 }
