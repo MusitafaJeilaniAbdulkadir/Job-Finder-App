@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:job_portal/main.dart';
 
 void main() {
   runApp(const MyApp());
@@ -87,6 +88,8 @@ class LoginScreen extends StatelessWidget {
                   ),
                   onPressed: () {
                     // TODO: Implement login functionality
+                    // and navigate to the home screen
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Home_Page()));
                   },
                   child: const Text(
                     "LOGIN",
