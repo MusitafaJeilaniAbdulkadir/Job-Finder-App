@@ -31,14 +31,11 @@ class Home_Page extends StatelessWidget {
         actions: [Icon(Icons.search), Icon(Icons.replay_rounded)],
         elevation: 4.0,
         bottom: PreferredSize(
-            preferredSize: Size.fromHeight(1.0),
-            child: Container(
-              height: 1.0,
-            )),
+            preferredSize: Size.fromHeight(1.0), child: Container(height: 1.0)),
       ),
       drawer: Drawer(
         child: ListView(
-          children: [
+          children: const [
             ListTile(
               title: Text("data"),
             ),
