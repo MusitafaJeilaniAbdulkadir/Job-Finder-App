@@ -1,24 +1,43 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:job_portal/favorite.dart';
+import 'package:job_portal/home.dart';
+import 'package:job_portal/jobs.dart';
+import 'package:job_portal/profile.dart';
 
 void main() {
   runApp(const job_portal());
 }
 
-class job_portal extends StatelessWidget {
+class job_portal extends StatefulWidget {
   const job_portal({super.key});
 
   @override
+  State<job_portal> createState() => _job_portalState();
+}
+
+class _job_portalState extends State<job_portal> {
+  @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: "Job Finder",
       home: Home_Page(),
     );
   }
 }
 
-class Home_Page extends StatelessWidget {
-  const Home_Page({super.key});
+class Home_Page extends StatefulWidget {
+  Home_Page({super.key});
+
+  @override
+  State<Home_Page> createState() => _Home_PageState();
+}
+
+class _Home_PageState extends State<Home_Page> {
+  int _page = 0;
+  final screens = [home(), favorite(), jobs(), profile()];
+
+  GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
@@ -46,9 +65,7 @@ class Home_Page extends StatelessWidget {
           ],
         ),
       ),
-      body: Center(
-        child: Text("Welcome"),
-      ),
+      body: screens[_page],
       bottomNavigationBar: CurvedNavigationBar(
         backgroundColor: Colors.white,
         color: Colors.purple,
@@ -74,7 +91,11 @@ class Home_Page extends StatelessWidget {
             color: Colors.white,
           ),
         ],
-        onTap: (index) {},
+        onTap: (index) {
+          setState(() {
+            _page = index;
+          });
+        },
         animationDuration: Duration(milliseconds: 300),
       ),
     );
