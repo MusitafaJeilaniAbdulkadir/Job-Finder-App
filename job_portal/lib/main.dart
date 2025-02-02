@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:job_portal/favorite.dart';
 import 'package:job_portal/home.dart';
 import 'package:job_portal/jobs.dart';
+import 'package:job_portal/login_page.dart';
 import 'package:job_portal/profile.dart';
 
 void main() {
@@ -21,11 +22,11 @@ class _job_portalState extends State<job_portal> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Job Finder",
-      home: Home_Page(),
+      home: LoginScreen(),
     );
   }
 }
-
+ 
 class Home_Page extends StatefulWidget {
   Home_Page({super.key});
 
@@ -35,7 +36,7 @@ class Home_Page extends StatefulWidget {
 
 class _Home_PageState extends State<Home_Page> {
   int _page = 0;
-  final screens = [home(), favorite(), jobs(), profile()];
+  final screens = [ home() ,favorite(), jobs(), profile(),LoginScreen()];
 
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 

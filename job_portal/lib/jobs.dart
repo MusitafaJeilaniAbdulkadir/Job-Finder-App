@@ -12,7 +12,7 @@ class _jobsState extends State<jobs> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Welcome to jobs page"),
+        child: Text("Welcome to jobs page" ),
       ),
     );
   }
