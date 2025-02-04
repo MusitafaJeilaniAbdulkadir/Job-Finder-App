@@ -3,18 +3,18 @@ import 'package:job_portal/modals/Profile/profile_modal.dart';
 
 class UserProfileData {
   static Profile mohamed = Profile(
-    userName: "Mohamed Ali Abdi",
-    userEmail: "dudu921@gmail.com",
-    phone: "+252613625352",
+    userName: "moktar yakub Osman",
+    userEmail: "moktar@gmail.com",
+    phone: "+252616793910",
     DOB: DateTime(1997, 7, 21),
     professional: "Software Engineer",
     bio: getBioById(1),
     // imageUrl: "assets/mo_ali.jpeg"
   );
   static Profile abdirahman = Profile(
-    userName: "Abdirahman Haji ",
-    userEmail: "abdirah24@gmail.com",
-    phone: "613625352",
+    userName: "moktar yakub Osman ",
+    userEmail: "moktar@gmail.com",
+    phone: "616793910",
     DOB: DateTime(2002, 1, 21),
     professional: "Software Engineer",
     languages: ['Somali','English'],
