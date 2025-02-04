@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:job_finder/consts/colors.dart';
+import 'package:job_portal/consts/colors.dart';
 
 class TextDecorations{
   String family;

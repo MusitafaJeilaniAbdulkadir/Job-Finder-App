@@ -1,4 +1,4 @@
-import 'package:job_finder/modals/jobs/job_modal.dart';
+import 'package:job_portal/modals/jobs/job_modal.dart';
 
 class AppliedJobs{
   String companyLogo,jobTitle,company,timePosted;

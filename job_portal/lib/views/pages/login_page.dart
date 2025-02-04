@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:job_finder/consts/colors.dart';
-import 'package:job_finder/mixins/input_border_decoration.dart';
-import 'package:job_finder/mixins/messages.dart';
-import 'package:job_finder/util/buton.dart';
-import 'package:job_finder/util/helpers/text_helper.dart';
-import 'package:job_finder/util/text.dart';
-import 'package:job_finder/views/pages/home_page.dart';
+import 'package:job_portal/consts/colors.dart';
+import 'package:job_portal/mixins/input_border_decoration.dart';
+import 'package:job_portal/mixins/messages.dart';
+import 'package:job_portal/util/buton.dart';
+import 'package:job_portal/util/helpers/text_helper.dart';
+import 'package:job_portal/util/text.dart';
+import 'package:job_portal/views/pages/home_page.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});

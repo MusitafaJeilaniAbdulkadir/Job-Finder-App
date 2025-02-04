@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding_slider/flutter_onboarding_slider.dart';
-import 'package:job_finder/consts/colors.dart';
-import 'package:job_finder/util/helpers/text_helper.dart';
-import 'package:job_finder/util/text.dart';
-import 'package:job_finder/views/pages/login_page.dart';
-import 'package:job_finder/views/pages/user_type_page.dart';
+import 'package:job_portal/consts/colors.dart';
+import 'package:job_portal/util/helpers/text_helper.dart';
+import 'package:job_portal/util/text.dart';
+import 'package:job_portal/views/pages/login_page.dart';
+import 'package:job_portal/views/pages/user_type_page.dart';
 class OnBoarding extends StatelessWidget {
   const OnBoarding({super.key});
 

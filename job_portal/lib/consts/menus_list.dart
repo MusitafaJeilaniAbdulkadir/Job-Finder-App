@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:job_finder/views/components/user_profile.dart';
+import 'package:job_portal/views/components/user_profile.dart';
 
 ///Creates list of menus that routes different pages or different screens
-final  List<Map<String,dynamic>> menus=[
+final List<Map<String, dynamic>> menus = [
   {
     "menuIcon": FaIcon(FontAwesomeIcons.house),
     "menuTitle": "Home",
@@ -28,10 +28,12 @@ final  List<Map<String,dynamic>> menus=[
     "menuIcon": FaIcon(FontAwesomeIcons.user),
     "menuTitle": "Profile",
     "trailing": FaIcon(FontAwesomeIcons.angleRight),
-    "onClick" : (BuildContext context)  {
+    "onClick": (BuildContext context) {
       Navigator.push(
-        context ,
-        MaterialPageRoute(builder: (context) => const UserProfile()), // Navigate to ProfilePage
+        context,
+        MaterialPageRoute(
+            builder: (context) =>
+                const UserProfile()), // Navigate to ProfilePage
       );
     }
   }

@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:job_finder/util/helpers/text_helper.dart';
+import 'package:job_portal/util/helpers/text_helper.dart';
 
 class CText extends StatelessWidget {
   final String text;

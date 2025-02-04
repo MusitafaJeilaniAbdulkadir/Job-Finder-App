@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:job_finder/consts/texts.dart';
-import 'package:job_finder/mixins/messages.dart';
-import 'package:job_finder/util/helpers/custom_text_field.dart';
-import 'package:job_finder/util/helpers/text_helper.dart';
-import 'package:job_finder/util/text.dart';
+import 'package:job_portal/consts/texts.dart';
+import 'package:job_portal/mixins/messages.dart';
+import 'package:job_portal/util/helpers/custom_text_field.dart';
+import 'package:job_portal/util/helpers/text_helper.dart';
+import 'package:job_portal/util/text.dart';
 
 import '../../../consts/colors.dart';
 import '../../../util/buton.dart';

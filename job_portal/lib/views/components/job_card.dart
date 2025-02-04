@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:job_finder/modals/jobs/job_modal.dart';
+import 'package:job_portal/modals/jobs/job_modal.dart';
 
 import '../../consts/colors.dart';
 import '../../consts/texts.dart';

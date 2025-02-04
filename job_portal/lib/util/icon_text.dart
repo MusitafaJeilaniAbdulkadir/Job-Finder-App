@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:job_finder/util/text.dart';
+import 'package:job_portal/util/text.dart';
 
 import '../consts/colors.dart';
 import 'helpers/text_helper.dart';

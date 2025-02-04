@@ -1,18 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:job_finder/mixins/bottom_navigation_mixin.dart';
-import 'package:job_finder/modals/jobs/applied_jobs.dart';
-import 'package:job_finder/modals/jobs/job_modal.dart';
-import 'package:job_finder/util/buton.dart';
-import 'package:job_finder/util/filter_dailog.dart';
-import 'package:job_finder/util/helpers/text_helper.dart';
-import 'package:job_finder/util/icon_image.dart';
-import 'package:job_finder/util/icon_text.dart';
-import 'package:job_finder/util/profile.dart';
-import 'package:job_finder/util/text.dart';
-import 'package:job_finder/views/components/applied_job_card.dart';
-import 'package:job_finder/views/components/job_card.dart';
+import 'package:job_portal/mixins/bottom_navigation_mixin.dart';
+import 'package:job_portal/modals/jobs/applied_jobs.dart';
+import 'package:job_portal/modals/jobs/job_modal.dart';
+import 'package:job_portal/util/buton.dart';
+import 'package:job_portal/util/filter_dailog.dart';
+import 'package:job_portal/util/helpers/text_helper.dart';
+import 'package:job_portal/util/icon_image.dart';
+import 'package:job_portal/util/icon_text.dart';
+import 'package:job_portal/util/profile.dart';
+import 'package:job_portal/util/text.dart';
+import 'package:job_portal/views/components/applied_job_card.dart';
+import 'package:job_portal/views/components/job_card.dart';
 
 import '../../consts/colors.dart';
 

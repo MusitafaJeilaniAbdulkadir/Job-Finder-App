@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:job_finder/util/helpers/text_helper.dart';
-import 'package:job_finder/util/text.dart';
+import 'package:job_portal/util/helpers/text_helper.dart';
+import 'package:job_portal/util/text.dart';
 
 import '../consts/user_profile_enum.dart';
 

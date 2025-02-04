@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:job_finder/consts/colors.dart';
-import 'package:job_finder/consts/user_profile_enum.dart';
-import 'package:job_finder/util/buton.dart';
-import 'package:job_finder/util/helpers/text_helper.dart';
-import 'package:job_finder/util/radio_listile_button.dart';
-import 'package:job_finder/util/text.dart';
-import 'package:job_finder/views/pages/registrations/conpany.dart';
-import 'package:job_finder/views/pages/registrations/user_reg.dart';
+import 'package:job_portal/consts/colors.dart';
+import 'package:job_portal/consts/user_profile_enum.dart';
+import 'package:job_portal/util/buton.dart';
+import 'package:job_portal/util/helpers/text_helper.dart';
+import 'package:job_portal/util/radio_listile_button.dart';
+import 'package:job_portal/util/text.dart';
+import 'package:job_portal/views/pages/registrations/conpany.dart';
+import 'package:job_portal/views/pages/registrations/user_reg.dart';
 
 class UserTypePage extends StatefulWidget {
   const UserTypePage({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:job_finder/util/buton.dart';
-import 'package:job_finder/util/text.dart';
+import 'package:job_portal/util/buton.dart';
+import 'package:job_portal/util/text.dart';
 
 class FilterDialog extends StatefulWidget {
   const FilterDialog({super.key});

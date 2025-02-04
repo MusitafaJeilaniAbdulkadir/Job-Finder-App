@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:job_finder/util/helpers/text_helper.dart';
-import 'package:job_finder/util/text.dart';
+import 'package:job_portal/util/helpers/text_helper.dart';
+import 'package:job_portal/util/text.dart';
 
 import '../consts/colors.dart';
 

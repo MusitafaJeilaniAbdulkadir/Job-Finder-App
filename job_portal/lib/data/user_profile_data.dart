@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:job_finder/modals/Profile/profile_modal.dart';
+import 'package:job_portal/modals/Profile/profile_modal.dart';
 
 class UserProfileData {
   static Profile mohamed = Profile(
