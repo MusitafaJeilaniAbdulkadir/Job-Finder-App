@@ -69,7 +69,7 @@ class UserProfile extends StatelessWidget {
                   child: ClipRRect(
                       borderRadius: BorderRadius.circular(60),
                       child:
-                          const Image(image: AssetImage("assets/mo_ali.jpeg"))),
+                          const Image(image: AssetImage("assets/moktar.jpg"))),
                 ),
                 const SizedBox(
                   width: 12.0,

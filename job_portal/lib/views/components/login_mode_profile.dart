@@ -24,7 +24,7 @@ class LoginModeProfile extends StatelessWidget {
         ),
 
         SizedBox(height: 4,),
-        CText(text: "Abdulrahman",
+        CText(text: "moktar",
           decorations: TextDecorations(
               color: colors['white-color'] as Color,
               fontSize: 21,
