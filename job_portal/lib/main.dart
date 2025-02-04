@@ -13,7 +13,7 @@ import 'consts/colors.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(statusBarColor: colors['primary']));
+      SystemUiOverlayStyle(statusBarColor: colors['secondary']));
   runApp(const JobFinder());
 }
 
@@ -29,6 +29,3 @@ class JobFinder extends StatelessWidget {
     );
   }
 }
-
-
-
